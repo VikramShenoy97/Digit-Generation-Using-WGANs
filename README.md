@@ -17,7 +17,7 @@ pip install keras
 
 ### Dataset
 
-The ![MNIST Dataset](http://yann.lecun.com/exdb/mnist/) is a dataset of 60,000 28x28 grayscale images of the 10 digits, along with a test set of 10,000 images.
+The [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) is a dataset of 60,000 28x28 grayscale images of the 10 digits, along with a test set of 10,000 images.
 
 ### Pre-trained Models
 
