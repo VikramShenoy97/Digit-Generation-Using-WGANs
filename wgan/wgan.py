@@ -338,7 +338,7 @@ class WassersteinGAN():
         sample = 0
         for i in range(0, rows):
             for j in range(0, columns):
-                axs[i,j].imshow(generated_images[sample, :, :, 0], cmap='viridis')
+                axs[i,j].imshow(generated_images[sample, :, :, 0], cmap='gray')
                 axs[i,j].axis("off")
                 sample = sample + 1
 
