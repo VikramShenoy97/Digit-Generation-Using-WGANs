@@ -21,7 +21,7 @@ The [MNIST Dataset](http://yann.lecun.com/exdb/mnist/) is a dataset of 60,000 28
 
 ### Pre-trained Models
 
-I have stored pre-trained Generator and Critic Networks (Trained for 69000 epochs) along with the noise distribution , from which digits are sampled from, in the **Trained_Models** folder. 
+I have stored pre-trained Generator and Critic Networks (Trained for 90000 epochs) along with the noise distribution , from which digits are sampled from, in the **Trained_Models** folder.
 
 Within the same folder is another folder called **Backup**. This folder stores the pretrained Generator Network and Crtic Network across different epochs as *Generator_epoch.h5* and *Critic_epoch.h5*
 
@@ -42,7 +42,7 @@ Python test.py
 
 ## Results
 
-I ran this program on Google Colab to get better results. 
+I ran this program on Google Colab to get better results.
 
 3000 epochs take approximately 15 minutes on Google Colab using their GPU.
 
@@ -50,7 +50,9 @@ I ran this program on Google Colab to get better results.
 
 ![Transition](https://github.com/VikramShenoy97/Digit-Generation-using-WGANs/blob/master/Transition/wgan.gif)
 
-### FInal Result
+### Final Result
+
+After 90000 epochs
 
 ![Final_Image](https://github.com/VikramShenoy97/Digit-Generation-using-WGANs/blob/master/Output/Final.png)
 
